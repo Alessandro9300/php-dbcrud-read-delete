@@ -3,11 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
+    <div class="pagamenti">
+      <h1>Pagamenti</h1>
+    </div>
 
 
+
+    <script id="handlebar" type="text/x-handlebars-template">
+
+      <div class="transazione" data-id="{{id}}">
+        <p>{{name}}</p>
+        <p>{{lastname}}</p>
+        <i class="delete fas fa-trash-alt"></i>
+      </div>
+
+    </script>
 
 
 
